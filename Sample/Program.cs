@@ -23,7 +23,7 @@
                 {
                     var message = string.Format("Test {0}", i);
                     Console.WriteLine(message);
-                    Logger.Write(message);
+                    Logger.Write(message); 
                 }
             }
         }
